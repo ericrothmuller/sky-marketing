@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route}
 	from 'react-router-dom';
 import Home from './pages/home';
 import About from './pages/about';
-import Blogs from './pages/blogs';
+import Services from './pages/services';
 import SignUp from './pages/signup';
 import Contact from './pages/contact';
 
@@ -18,7 +18,7 @@ return (
     <Route path='/home' element={<Home/>} />
 		<Route path='/about' element={<About/>} />
 		<Route path='/contact' element={<Contact/>} />
-		<Route path='/blogs' element={<Blogs/>} />
+		<Route path='/services' element={<Services/>} />
 		<Route path='/sign-up' element={<SignUp/>} />
 	</Routes>
 	</Router>
