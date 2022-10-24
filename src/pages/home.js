@@ -1,10 +1,12 @@
 import React from 'react';
+import '.././App.css';
 
 const Home = () => {
 return (
-	<div>
-	<h1>Welcome to Sky Marketing</h1>
-	</div>
+	<main className="pageHeadingDiv">
+	<h1 className="pageTitle">Welcome to Sky Marketing</h1>
+	<p className="pageParagraph">Test paragraph</p>
+	</main>
 );
 };
 
