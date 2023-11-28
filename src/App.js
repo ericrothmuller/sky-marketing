@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route}
 import Home from './pages/home';
 import About from './pages/about';
 import Services from './pages/services';
-import SignUp from './pages/signup';
+import Portfolio from './pages/portfolio';
 import Contact from './pages/contact';
 
 function App() {
@@ -19,7 +19,7 @@ return (
 		<Route path='/about' element={<About/>} />
 		<Route path='/contact' element={<Contact/>} />
 		<Route path='/services' element={<Services/>} />
-		<Route path='/sign-up' element={<SignUp/>} />
+		<Route path='/portfolio' element={<Portfolio/>} />
 	</Routes>
 	</Router>
 );

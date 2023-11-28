@@ -16,8 +16,8 @@ const Navbar = () => {
           <NavLink to="/services">
             Services
           </NavLink>
-          <NavLink to="/sign-up">
-            Sign Up
+          <NavLink to="/portfolio">
+            Portfolio
           </NavLink>
           <NavLink to="/contact">
             Contact Us

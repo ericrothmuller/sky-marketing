@@ -1,12 +1,12 @@
 import React from 'react';
 
-const SignUp = () => {
+const Portfolio = () => {
 return (
 	<main className="pageHeadingDiv">
-	<h1 className="pageTitle">Sign Up</h1>
+	<h1 className="pageTitle">Portfolio</h1>
 	<p className="pageParagraph">Test paragraph</p>
 	</main>
 );
 };
 
-export default SignUp;
+export default Portfolio;
