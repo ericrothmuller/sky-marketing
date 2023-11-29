@@ -26,16 +26,25 @@ return (
 	<p>Every website needs to be consistently reviewed and updated or it will break. Themes, plugins, and packages will eventually become outdated, unsupported, or vulnerable to attacks and will break. Even the code itself may become outdated and unsupported by browsers, leaving your website broken and unusable. Our Website Management is a solution to this problem.</p>
 	<p>Our Website Management services not only includes a monthly review to keep your website updated, but it can also include content management. If you need images, videos, text, flyers, contact forms, etc. added to your website, we can do this for you as your 100% go-to website management team. We also can manage your back-end server and ensure it's running properly and kept updated.</p>
 	<p>Every Website Management plan is customized to your specific needs.</p>
-	<p>Typical Website Management Cost Range: $200 - $2,000 per month.</p>
-	<br/><em>*Prices vary depending on what your management needs are.</em>
+	<p>Typical Website Management Cost Range: $200 - $2,000 per month.
+	<br/><em>*Prices vary depending on what your management needs are.</em></p>
+
+	<hr className="beyondMain"/>
+
+	<h2>Website Work or Graphic Design</h2>
+	<p>Do you have a smaller project that you need help with? Maybe you need a flyer made for a special event. Maybe you changed your prices and need pricing updated on your website. Maybe you need a landing page made for an advertising campaign. Whatever it is, we most likely can do it and we charge a simple hourly rate.</p>
+	<p>Normal Rates for Website Work: $40 per hour.
+	<br/>Normal Rates for Graphic Design Work: $60 per hour.
+	<br/><em>*Prices vary depending your specific needs.</em></p>
 
 	<hr className="beyondMain"/>
 
 	<h2>Search Engine Optimization</h2>
 	<p>Just having a website isn't enough to be found on the internet. In order to be found when people search for your products or services, you'll need to rank near the top of search results on search engines like Google. Search Engine Optimization (or SEO) does exactly that.</p>
 	<p>Our SEO services are designed to make sure your website is optimized and fully compliant with Google's web standards with the goal of getting your website to rank high in search results when potential customers search for the product or service you provide. In order to do this, we will also create and optimize business listings, create high quality backlinks, and other things aimed at making your business rank as high as we can on Google.</p>
-	<p>Typical SEO Cost Range: $300 - $600 per month.</p>
-	<br/><em>*Prices vary depending your SEO needs.</em>
+	<p>Typical SEO Cost Range: $300 - $600 per month.
+	<br/><em>*Prices vary depending your SEO needs.</em></p>
+
 	</main>
 );
 };
