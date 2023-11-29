@@ -2,7 +2,12 @@ body {
   margin: 0;
   background-color: #ececec;
   color: #000000;
-};
+}
+
+main {
+  padding-left: 25px;
+  padding-right: 25px;
+}
 
 .header {
   padding-left: 25px;
