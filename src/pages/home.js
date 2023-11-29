@@ -3,9 +3,9 @@ import '.././App.css';
 
 const Home = () => {
 return (
-	<main className="pageHeadingDiv">
-	<h1 className="pageTitle">Welcome to Sky Marketing</h1>
-	<p className="pageParagraph">We are a web design and online marketing company out of Northern California.</p>
+	<main>
+	<h1>Welcome to Sky Marketing</h1>
+	<p>We are a web design and online marketing company out of Northern California.</p>
 	</main>
 );
 };
