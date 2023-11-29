@@ -34,7 +34,7 @@ return (
 	<h2>Website Work or Graphic Design</h2>
 	<p>Do you have a smaller project that you need help with? Maybe you need a flyer made for a special event. Maybe you changed your prices and need pricing updated on your website. Maybe you need a landing page made for an advertising campaign. Whatever it is, we most likely can do it and we charge a simple hourly rate.</p>
 	<p>Normal Rates for Website Work: $40 per hour.
-	<br/>Normal Rates for Graphic Design Work: $60 per hour.
+	<br/>Normal Rates for Graphic Design Work: $50 per hour.
 	<br/><em>*Prices vary depending your specific needs.</em></p>
 
 	<hr className="beyondMain"/>
