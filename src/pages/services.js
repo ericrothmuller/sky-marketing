@@ -20,6 +20,8 @@ return (
 	<p>Typical Design Cost Range: $10,000 - $100,000.
 	<br/><em>*Prices vary depending on scope and scale of the project.</em></p>
 
+<hr className="beyondMain"/>
+
 	<h2>Website Management</h2>
 	<p>Every website needs to be consistently reviewed and updated or it will break. Themes, plugins, and packages will eventually become outdated, unsupported, or vulnerable to attacks and will break. Even the code itself may become outdated and unsupported by browsers, leaving your website broken and unusable. Our Website Management is a solution to this problem.</p>
 	<p>Our Website Management services not only includes a monthly review to keep your website updated, but it can also include content management. If you need images, videos, text, flyers, contact forms, etc. added to your website, we can do this for you as your 100% go-to website management team. We also can manage your back-end server and ensure it's running properly and kept updated.</p>

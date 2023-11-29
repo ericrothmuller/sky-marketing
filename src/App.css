@@ -9,6 +9,11 @@ main {
   padding-right: 25px;
 }
 
+.beyondMain {
+  margin-left: -25px;
+  margin-right: -25px;
+}
+
 .header {
   padding-left: 25px;
 }
