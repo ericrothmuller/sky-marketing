@@ -1,9 +1,7 @@
 body {
   margin: 0;
-  background-color: #acb7ae;
+  background-color: #ececec;
   color: #000000;
-  padding-left: 25px;
-  padding-right: 25px;
 };
 
 .header {
@@ -14,6 +12,12 @@ h1 {
   text-align: center;
   color: #000000;
   font-size: 40px;
+  padding: 10px;
+}
+
+h2 {
+  color: #000000;
+  font-size: 30px;
   padding: 10px;
 }
 
