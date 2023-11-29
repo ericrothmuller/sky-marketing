@@ -2,10 +2,12 @@ body {
   margin: 0;
   background-color: #acb7ae;
   color: #000000;
+  padding-left: 25px;
+  padding-right: 25px;
 };
 
-.pageHeadingDiv {
-  display: flex;
+.header {
+  padding-left: 25px;
 }
 
 .pageTitle {
@@ -15,8 +17,6 @@ body {
   padding: 10px;
 }
 
-.pageParagraph {
-  padding-left: 25px;
-  padding-right: 25px;
+p {
   font-size: 25px;
 }
