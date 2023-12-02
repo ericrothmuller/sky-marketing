@@ -43,3 +43,7 @@ h2 {
 p {
   font-size: 25px;
 }
+
+.roundedCorners {
+  border-radius: 25px;
+}
