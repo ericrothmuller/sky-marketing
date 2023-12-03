@@ -51,3 +51,7 @@ p {
 .subFont {
   font-size: 18px;
 }
+
+.centeredText {
+  text-align: center;
+}
