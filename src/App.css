@@ -55,3 +55,20 @@ p {
 .centeredText {
   text-align: center;
 }
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+  text-decoration-thickness: 0.2rem;
+  text-decoration-color: #00C0F7;
+}
+
+a:visited {
+   color: #000000;
+}
