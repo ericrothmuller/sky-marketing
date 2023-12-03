@@ -5,7 +5,7 @@ import ReactLogo from "../images/React-Logo.png";
 const Services = () => {
 return (
 	<main>
-	<p className="centeredText">Website Design | Website Management | Smaller Projects | Graphic Design | SEO</p>
+	<p className="centeredText"><a href="#WebDesign">Website Design</a> | <a href="#WebManagement">Website Management</a> | <a href="#SmallProject">Smaller Projects</a> | <a href="#GraphicDesign">Graphic Design</a> | <a href="#SEO">SEO</a></p>
 
 	<h1>Our Services</h1>
 	<h2>Website Design</h2>
