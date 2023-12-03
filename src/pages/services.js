@@ -5,9 +5,12 @@ import ReactLogo from "../images/React-Logo.png";
 const Services = () => {
 return (
 	<main>
+	<h1>Our Services</h1>
+
 	<p className="centeredText"><a href="#WebDesign">Website Design</a> | <a href="#WebManagement">Website Management</a> | <a href="#SmallProject">Smaller Projects</a> | <a href="#GraphicDesign">Graphic Design</a> | <a href="#SEO">SEO</a></p>
 
-	<h1>Our Services</h1>
+	<hr className="beyondMain"/>
+
 	<h2 id="WebDesign">Website Design</h2>
 	<p>We create websites on either WordPress or React. We can create anything from small business websites to large eCommerce websites with either platform. Which one we create your website on is completely up to you.</p>
 	<p><img src={WordPressImage} alt="WordPress Logo" /></p>
