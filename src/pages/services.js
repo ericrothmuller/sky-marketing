@@ -5,6 +5,7 @@ import ReactLogo from "../images/React-Logo.png";
 const Services = () => {
 return (
 	<main>
+	<p>Website Design | Website Management | Smaller Projects | Graphic Design | SEO</p>
 	<h1>Our Services</h1>
 	<h2>Website Design</h2>
 	<p>We create websites on either WordPress or React. We can create anything from small business websites to large eCommerce websites with either platform. Which one we create your website on is completely up to you.</p>
