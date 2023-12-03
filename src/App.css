@@ -47,3 +47,7 @@ p {
 .roundedCorners {
   border-radius: 25px;
 }
+
+.subFont {
+  font-size: 18px;
+}
