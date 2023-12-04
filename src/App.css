@@ -72,3 +72,20 @@ a:hover {
 a:visited {
    color: #000000;
 }
+
+button {
+  background-color: #00C0F7;
+  color: #000000;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.centeredDiv {
+  text-align: center;
+}
