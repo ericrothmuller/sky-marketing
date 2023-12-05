@@ -8,10 +8,12 @@ import About from './pages/about';
 import Services from './pages/services';
 import Portfolio from './pages/portfolio';
 import Contact from './pages/contact';
+import logo from './images/Sky-Marketing-Logo.png';
 
 function App() {
 return (
 	<Router>
+		<div className="logoDiv"><img src={logo} className="mainLogo" /></div>
 	<Navbar />
 	<Routes>
     <Route exact path='/' element={<Home/>} />
