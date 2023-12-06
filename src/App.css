@@ -15,6 +15,7 @@ body {
 main {
   padding-left: 25px;
   padding-right: 25px;
+  border-top: 2px solid #00C0F7;
 }
 
 .beyondMain {
@@ -75,7 +76,7 @@ a:visited {
 }
 
 button {
-  background-image: linear-gradient(to bottom right, #0FA0E4, #00C0F7 , #0FA0E4);
+  background-image: linear-gradient(to bottom right, #00A0E4, #00C0F7 , #00A0E4);
   color: #000000;
   font-size: 25px;
   text-align: center;
@@ -83,7 +84,7 @@ button {
   border-radius: 10px;
 }
 button:hover {
-  background-image: linear-gradient(to top right, #0FA0E4, #00C0F7 , #0FA0E4);
+  background-image: linear-gradient(to top right, #00A0E4, #00C0F7 , #00A0E4);
   cursor: pointer;
 }
 
