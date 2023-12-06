@@ -13,7 +13,7 @@ import logo from './images/Sky-Marketing-Logo.png';
 function App() {
 return (
 	<Router>
-		<div className="logoDiv"><img src={logo} className="mainLogo" /></div>
+		<div className="logoDiv"><img src={logo} className="mainLogo" alt="Sky Marketing Logo" /></div>
 	<Navbar />
 	<Routes>
     <Route exact path='/' element={<Home/>} />
