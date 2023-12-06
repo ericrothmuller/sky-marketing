@@ -1,5 +1,5 @@
 :root {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Hedvig Letters Sans', sans-serif;
   font-size: 18px;
   letter-spacing: 0;
   font-weight: 400;
@@ -29,7 +29,7 @@ main {
 h1 {
   text-align: center;
   color: #000000;
-  font-family: "Tungsten Bold";
+  font-family: 'Hedvig Letters Sans', sans-serif;
   font-size: 40px;
   text-transform: uppercase;
   padding: 10px;
