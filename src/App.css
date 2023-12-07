@@ -114,3 +114,28 @@ button:hover {
     width: 40vw;
   }
 }
+
+.row {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columnLeft {
+  float: left;
+  width: 50%;
+}
+
+.columnRight {
+  float: left;
+  width: 50%;
+}
+
+li {
+  font-size: 22px;
+}
