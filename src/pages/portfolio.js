@@ -1,4 +1,5 @@
 import React from 'react';
+import EliteMD from "../images/Portfolio Images/Elite-MD-Screenshot.jpg";
 
 const Portfolio = () => {
 return (
@@ -67,12 +68,16 @@ return (
 				<li>DeWitte Construction</li>	
 			</ul>
 		</div>
-		<p> <em className="subFont">*This is not all of the companies we've done work for but this sample should give you an idea of the type of companies we've done work for. Work done includes web design, SEO, web management, and more!</em></p>
+		<p> <em className="subFont">*This is not all of the companies we've done work for but this list of clients should give you an idea of the type of companies we've done work. Work done includes web design, SEO, web management, and more.</em></p>
 	</div>
 
 	<hr className="beyondMain"/>
 
 	<h2 id="BusinessWebsites">Business Websites</h2>
+	<p>test text</p>
+	<img src={EliteMD} alt="elitemdspa.com Website Design" className="portfolioImage" />
+	<p>test text</p>
+	<p>test text</p>
 	<p>test text</p>
 
 	</main>
