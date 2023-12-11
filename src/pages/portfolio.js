@@ -1,5 +1,8 @@
 import React from 'react';
+import AppliedSigns from "../images/Portfolio Images/Applied-Signs-Screenshot.jpg";
 import EliteMD from "../images/Portfolio Images/Elite-MD-Screenshot.jpg";
+import FlyingGoatCoffee from "../images/Portfolio Images/Flying-Goat-Screenshot.jpg";
+import FourSeasons from "../images/Portfolio Images/Four-Seasons-Vineyard-Management-Screenshot.jpg";
 
 const Portfolio = () => {
 return (
@@ -76,6 +79,9 @@ return (
 	<h2 id="BusinessWebsites">Business Websites</h2>
 	<p>test text</p>
 	<img src={EliteMD} alt="elitemdspa.com Website Design" className="portfolioImage" />
+	<img src={FlyingGoatCoffee} alt="flyinggoatcoffee.com Website Design" className="portfolioImage" />
+	<img src={FourSeasons} alt="fourseasonsvineyardmanagement.com Website Design" className="portfolioImage" />
+	<img src={AppliedSigns} alt="appliedsigns.net Website Design" className="portfolioImage" />
 	<p>test text</p>
 	<p>test text</p>
 	<p>test text</p>
