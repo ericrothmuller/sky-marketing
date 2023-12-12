@@ -75,7 +75,7 @@ a:visited {
    color: #000000;
 }
 
-button {
+button.normalButton {
   background-image: linear-gradient(to bottom right, #00A0E4, #00C0F7 , #00A0E4);
   color: #000000;
   font-size: 25px;
@@ -83,7 +83,7 @@ button {
   padding: 10px;
   border-radius: 10px;
 }
-button:hover {
+button.normalButton:hover {
   background-image: linear-gradient(to top right, #00A0E4, #00C0F7 , #00A0E4);
   cursor: pointer;
 }
@@ -142,26 +142,28 @@ li {
   filter: drop-shadow(5px 5px 5px #050505);
 }
 
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#0C9;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-	box-shadow: 2px 2px 3px #999;
+/* BackToTopButton.css */
+.back-to-top-button {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #00A0E4;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  filter: drop-shadow(2px 2px 3px #050505);
 }
 
-.floatText {
-  margin-top: 10px;
-  padding-top: 10px;
+.back-to-top-button.visible {
+  display: block;
 }
 
-.my-float{
-	margin-top:22px;
+.back-to-top-button:hover {
+  background-color: #00C0F7;
 }
 
 @media only screen and (max-width: 640px) {
