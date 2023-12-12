@@ -1,8 +1,13 @@
 import React from 'react';
 import AppliedSigns from "../images/Portfolio Images/Applied-Signs-Screenshot.jpg";
 import EliteMD from "../images/Portfolio Images/Elite-MD-Screenshot.jpg";
+import FlakeyCream from "../images/Portfolio Images/Flakey-Cream-Screenshot.jpg";
 import FlyingGoatCoffee from "../images/Portfolio Images/Flying-Goat-Screenshot.jpg";
 import FourSeasons from "../images/Portfolio Images/Four-Seasons-Vineyard-Management-Screenshot.jpg";
+import ImageAthletic from "../images/Portfolio Images/Image-Athletic-Screenshot.jpg";
+import MurderRidge from "../images/Portfolio Images/Murder-Ridge-Screenshot.jpg";
+import SonomaCrust from "../images/Portfolio Images/Sonoma-Crust-Screenshot.jpg";
+
 
 const Portfolio = () => {
 return (
@@ -78,14 +83,19 @@ return (
 
 	<h2 id="BusinessWebsites">Business Websites</h2>
 	<p>test text</p>
-	<img src={EliteMD} alt="elitemdspa.com Website Design" className="portfolioImage" />
-	<img src={FlyingGoatCoffee} alt="flyinggoatcoffee.com Website Design" className="portfolioImage" />
-	<img src={FourSeasons} alt="fourseasonsvineyardmanagement.com Website Design" className="portfolioImage" />
-	<img src={AppliedSigns} alt="appliedsigns.net Website Design" className="portfolioImage" />
-	<p>test text</p>
-	<p>test text</p>
-	<p>test text</p>
-
+	<div className="portfolioDiv">
+		<img src={EliteMD} alt="elitemdspa.com Website Design" className="portfolioImage" />
+		<img src={FlyingGoatCoffee} alt="flyinggoatcoffee.com Website Design" className="portfolioImage" />
+		<img src={FourSeasons} alt="fourseasonsvineyardmanagement.com Website Design" className="portfolioImage" />
+		<img src={MurderRidge} alt="murderridge.com Website Design" className="portfolioImage" />
+		<img src={ImageAthletic} alt="imageathletic.com Website Design" className="portfolioImage" />
+		<img src={AppliedSigns} alt="appliedsigns.net Website Design" className="portfolioImage" />
+		<img src={SonomaCrust} alt="sonomacrust.com Website Design" className="portfolioImage" />
+		<img src={FlakeyCream} alt="flakeycream.com Website Design" className="portfolioImage" />
+		<p><a href="#Top">test text</a></p>
+		<p>test text</p>
+		<p>test text</p>
+	</div>
 	</main>
 );
 };

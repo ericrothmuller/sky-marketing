@@ -13,7 +13,7 @@ import logo from './images/Sky-Marketing-Logo.png';
 function App() {
 return (
 	<Router>
-		<div className="logoDiv"><img src={logo} className="mainLogo" alt="Sky Marketing Logo" /></div>
+		<div className="logoDiv" id="Top"><img src={logo} className="mainLogo" alt="Sky Marketing Logo" /></div>
 	<Navbar />
 	<Routes>
     <Route exact path='/' element={<Home/>} />
@@ -23,6 +23,7 @@ return (
 		<Route path='/services' element={<Services/>} />
 		<Route path='/portfolio' element={<Portfolio/>} />
 	</Routes>
+	<a href="#Top" className="float my-float">To Top</a>
 	</Router>
 );
 }

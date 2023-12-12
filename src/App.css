@@ -103,18 +103,6 @@ button:hover {
   width: 20vw;
 }
 
-@media only screen and (max-width: 640px) {
-  .mainLogo {
-    width: 30vw;
-  }
-}
-
-@media only screen and (max-width: 1007px) {
-  .mainLogo {
-    width: 40vw;
-  }
-}
-
 .row {
   box-sizing: border-box;
   width: 100%;
@@ -140,11 +128,56 @@ li {
   font-size: 22px;
 }
 
+.portfolioDiv {
+  text-align: center;
+}
+
 .portfolioImage {
-  width: 30%;
-  border-radius: 10px;
+  width: 40%;
+  margin: 10px;
   padding: 2px;
+  border-radius: 10px;
   border: solid 2px #00C0F7;
   background-color: #00A0E4;
   filter: drop-shadow(5px 5px 5px #050505);
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.floatText {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+@media only screen and (max-width: 640px) {
+  .mainLogo {
+    width: 30vw;
+  }
+  .portfolioImage {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1007px) {
+  .mainLogo {
+    width: 40vw;
+  }
+  .portfolioImage {
+    width: 80%;
+  }
 }
