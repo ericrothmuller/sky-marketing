@@ -96,6 +96,8 @@ return (
 		<img src={ChaoSantana} alt="chaosantanafarm.com Website Design" className="portfolioImage" />
 		<img src={DeWitteConstruction} alt="dewitteco.com Website Design" className="portfolioImage" />
 	</div>
+	<p> <em className="subFont">*This is not all of the business websites we've done but this should give you a good sample of some of our work.
+	<br />*Styles and design preferences are up to the client. Our job is to make your vision come alive.</em></p>
 	</main>
 );
 };
