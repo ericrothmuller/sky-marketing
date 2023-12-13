@@ -1,6 +1,7 @@
 import React from 'react';
 import AppliedSigns from "../images/Portfolio Images/Applied-Signs-Screenshot.jpg";
 import ChaoSantana from "../images/Portfolio Images/Chao-Santana-Farm-Screenshot.jpg";
+import DeWitteConstruction from "../images/Portfolio Images/DeWitte-Construction-Screenshot.jpg";
 import EliteMD from "../images/Portfolio Images/Elite-MD-Screenshot.jpg";
 import FlakeyCream from "../images/Portfolio Images/Flakey-Cream-Screenshot.jpg";
 import FlyingGoatCoffee from "../images/Portfolio Images/Flying-Goat-Screenshot.jpg";
@@ -83,7 +84,6 @@ return (
 	<hr className="beyondMain"/>
 
 	<h2 id="BusinessWebsites">Business Websites</h2>
-	<p>test text</p>
 	<div className="portfolioDiv">
 		<img src={EliteMD} alt="elitemdspa.com Website Design" className="portfolioImage" />
 		<img src={FlyingGoatCoffee} alt="flyinggoatcoffee.com Website Design" className="portfolioImage" />
@@ -94,9 +94,7 @@ return (
 		<img src={SonomaCrust} alt="sonomacrust.com Website Design" className="portfolioImage" />
 		<img src={FlakeyCream} alt="flakeycream.com Website Design" className="portfolioImage" />
 		<img src={ChaoSantana} alt="chaosantanafarm.com Website Design" className="portfolioImage" />
-		<p><a href="#Top">test text</a></p>
-		<p>test text</p>
-		<p>test text</p>
+		<img src={DeWitteConstruction} alt="dewitteco.com Website Design" className="portfolioImage" />
 	</div>
 	</main>
 );
