@@ -9,7 +9,7 @@ export const Nav = styled.nav`
   justify-content: center;
   z-index: 12;
   align-content: center;
-  width: 100vw;
+  width: 100%;
   border-bottom: #000000 solid 15px;
 `;
   

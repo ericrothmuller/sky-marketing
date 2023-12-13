@@ -55,7 +55,6 @@ return (
 	<p>Our SEO services are designed to make sure your website is optimized and fully compliant with Google's web standards with the goal of getting your website to rank high in search results when potential customers search for the product or service you provide. In order to do this, we will also create and optimize business listings, create high quality backlinks, and other things aimed at making your business rank as high as we can on Google.</p>
 	<p>Typical SEO Cost Range: $300 - $600 per month.
 	<br/><em className="subFont">*Prices vary depending your SEO needs.</em></p>
-
 	</main>
 );
 };

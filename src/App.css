@@ -4,10 +4,13 @@
   letter-spacing: 0;
   font-weight: 400;
   background-color: #ffffff;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
   margin: 0px;
+  padding: 0px;
   background-color: #ffffff;
   color: #000000;
 }
@@ -94,13 +97,13 @@ button.normalButton:hover {
 
 .logoDiv {
   display: flex;
-  width: 100vw;
+  width: 100%;
   align-items: center;
   justify-content: center;
 }
 
 .mainLogo {
-  width: 20vw;
+  width: 20%;
 }
 
 .row {
@@ -117,7 +120,7 @@ button.normalButton:hover {
 .columnLeft {
   float: left;
   width: 50%;
-}
+} 
 
 .columnRight {
   float: left;
@@ -168,7 +171,7 @@ li {
 
 @media only screen and (max-width: 640px) {
   .mainLogo {
-    width: 30vw;
+    width: 30%;
   }
   .portfolioImage {
     width: 90%;
@@ -177,7 +180,7 @@ li {
 
 @media only screen and (max-width: 1007px) {
   .mainLogo {
-    width: 40vw;
+    width: 40%S;
   }
   .portfolioImage {
     width: 80%;
