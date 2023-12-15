@@ -49,10 +49,6 @@ p {
   font-size: 25px;
 }
 
-.roundedCorners {
-  border-radius: 25px;
-}
-
 .subFont {
   font-size: 18px;
 }
@@ -167,6 +163,27 @@ li {
 
 .back-to-top-button:hover {
   background-color: #00C0F7;
+}
+
+.founderBox {
+  display: flex;
+  flex-direction: column;
+  background-color: lightsteelblue;
+  border-radius: 10px;
+  width: 40%;
+  border: 2px black solid;
+  padding: 0px 10px 0px 10px;
+  float: right;
+}
+
+.alignSelfCenter {
+  align-self: center;
+}
+
+.aboutImage {
+  width: 200px;
+  border-radius: 25px;
+  align-self: center;
 }
 
 @media only screen and (max-width: 640px) {
