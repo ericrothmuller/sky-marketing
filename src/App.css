@@ -165,12 +165,23 @@ li {
   background-color: #00C0F7;
 }
 
+.skyMarketingBox {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(180, 198, 221);
+  border-radius: 10px;
+  width: 47%;
+  border: 2px black solid;
+  padding: 0px 10px 0px 10px;
+  float: left;
+}
+
 .founderBox {
   display: flex;
   flex-direction: column;
   background-color: lightsteelblue;
   border-radius: 10px;
-  width: 40%;
+  width: 47%;
   border: 2px black solid;
   padding: 0px 10px 0px 10px;
   float: right;
