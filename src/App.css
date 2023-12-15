@@ -168,7 +168,7 @@ li {
 .skyMarketingBox {
   display: flex;
   flex-direction: column;
-  background-color: rgb(180, 198, 221);
+  background-color: rgb(166, 196, 222);
   border-radius: 10px;
   width: 47%;
   border: 2px black solid;
@@ -176,15 +176,23 @@ li {
   float: left;
 }
 
+.skyMarketingBox:hover {
+  background-color: rgb(146, 196, 222);
+}
+
 .founderBox {
   display: flex;
   flex-direction: column;
-  background-color: lightsteelblue;
+  background-color: rgb(176, 196, 222);
   border-radius: 10px;
   width: 47%;
   border: 2px black solid;
   padding: 0px 10px 0px 10px;
   float: right;
+}
+
+.founderBox:hover {
+  background-color: rgb(156, 196, 222);
 }
 
 .alignSelfCenter {
