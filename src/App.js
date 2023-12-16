@@ -8,12 +8,13 @@ import About from './pages/about';
 import Services from './pages/services';
 import Portfolio from './pages/portfolio';
 import Contact from './pages/contact';
-import logo from './images/Sky-Marketing-Logo.png';
+import Logo from './images/Sky-Marketing-Logo.png';
+import Footer from './components/Footer';
 
 function App() {
 return (
 	<Router>
-		<div className="logoDiv"><img src={logo} className="mainLogo" alt="Sky Marketing Logo" /></div>
+		<div className="logoDiv"><img src={Logo} className="mainLogo" alt="Sky Marketing Logo" /></div>
 	<Navbar />
 	<BackToTopButton />
 	<Routes>
@@ -24,6 +25,7 @@ return (
 		<Route path='/services' element={<Services/>} />
 		<Route path='/portfolio' element={<Portfolio/>} />
 	</Routes>
+	<Footer />
 	</Router>
 );
 }

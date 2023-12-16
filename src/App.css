@@ -19,6 +19,7 @@ main {
   padding-left: 25px;
   padding-right: 25px;
   border-top: 2px solid #00C0F7;
+  border-bottom: 2px solid #00C0F7;
 }
 
 .beyondMain {
@@ -203,6 +204,39 @@ li {
   width: 200px;
   border-radius: 25px;
   align-self: center;
+}
+
+footer {
+  border-top: #000000 solid 15px;
+  background-color: red;
+}
+
+.footerLogo {
+  width: 200px;
+  border-radius: 25px;
+  align-self: center;
+  text-align: center;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between; /* Evenly distribute columns horizontally */
+  flex-wrap: wrap; /* Allow columns to wrap to the next row on smaller screens */
+}
+
+.footer-column {
+  flex: 1; /* Each column takes an equal amount of space */
+  margin: 10px; /* Add some spacing between columns */
+  padding: 20px; /* Add padding inside each column */
+  border: 1px solid #ccc; /* Add borders for separation (optional) */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack columns vertically on smaller screens */
+  }
 }
 
 @media only screen and (max-width: 640px) {
