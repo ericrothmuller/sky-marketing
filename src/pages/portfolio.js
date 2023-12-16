@@ -78,7 +78,8 @@ return (
 				<li>DeWitte Construction</li>	
 			</ul>
 		</div>
-		<p> <em className="subFont">*This is not all of the companies we've done work for but this list of clients should give you an idea of the type of companies we've done work. Work done includes web design, SEO, web management, and more.</em></p>
+		<p> <em className="subFont">*This is not all of the companies we've done work for but this list of clients should give you an idea of the type of companies we've done work.
+		<br />*Work done includes web design, SEO, web management, and more.</em></p>
 	</div>
 
 	<hr className="beyondMain"/>
