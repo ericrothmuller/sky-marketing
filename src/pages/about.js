@@ -6,7 +6,8 @@ const About = () => {
 return (
 	<main className="pageHeadingDiv">
 		<h1>About Us</h1>
-		<p>We are a web design and online marketing company out of Northern California.</p>
+		<p className="centeredDiv bolded">Welcome to Sky Marketing – where innovation takes flight and digital dreams become reality.</p>
+		<p>We are a dynamic web design and online marketing company on a mission to elevate your brand's online presence and propel your business to new heights in the digital landscape. At Sky Marketing, we're not just creating websites or executing marketing strategies; we're crafting powerful digital solutions that drive results. With passionate experts and a commitment to excellence, we're here to make your digital aspirations become reality. Explore opportunities with us and let's reach for the digital sky together.</p>
 		<div className="skyMarketingBox">
 			<h2 className="alignSelfCenter">About Sky Marketing</h2>
 			<img src={logo} alt="Sky Marketing" className="aboutImage" />

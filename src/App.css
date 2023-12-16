@@ -205,6 +205,10 @@ li {
   align-self: center;
 }
 
+.bolded {
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 640px) {
   .mainLogo {
     width: 30%;
