@@ -53,8 +53,12 @@ p {
   font-size: 18px;
 }
 
-.centeredText {
+.centered {
   text-align: center;
+}
+
+.bolded {
+  font-weight: bold;
 }
 
 a {
@@ -85,10 +89,6 @@ button.normalButton {
 button.normalButton:hover {
   background-image: linear-gradient(to top right, #00A0E4, #00C0F7 , #00A0E4);
   cursor: pointer;
-}
-
-.centeredDiv {
-  text-align: center;
 }
 
 .logoDiv {
@@ -203,10 +203,6 @@ li {
   width: 200px;
   border-radius: 25px;
   align-self: center;
-}
-
-.bolded {
-  font-weight: bold;
 }
 
 @media only screen and (max-width: 640px) {

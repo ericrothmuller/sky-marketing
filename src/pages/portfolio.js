@@ -16,7 +16,7 @@ return (
 	<main>
 	<h1>Portfolio</h1>
 
-	<p className="centeredText"><a href="#WorkedFor">Whom We've Done Work For</a> | <a href="#BusinessWebsites">Business Websites</a></p>
+	<p className="centered"><a href="#WorkedFor">Whom We've Done Work For</a> | <a href="#BusinessWebsites">Business Websites</a></p>
 
 	<hr className="beyondMain"/>
 

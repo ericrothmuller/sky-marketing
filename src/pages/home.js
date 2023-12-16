@@ -29,7 +29,7 @@ return (
 
 	<p>Elevate. Engage. Excel. With Sky Marketing.</p>
 
-	<div className="centeredDiv"><a href="/services"><button className="normalButton">Our Services</button></a>
+	<div className="centered"><a href="/services"><button className="normalButton">Our Services</button></a>
 	<p><a href="/contact/">Contact us</a> today at <a href="tel:707-843-2047">707-843-2047</a></p></div>
 	</main>
 );

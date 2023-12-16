@@ -7,7 +7,7 @@ return (
 	<main>
 	<h1>Our Services</h1>
 
-	<p className="centeredText"><a href="#WebDesign">Website Design</a> | <a href="#WebManagement">Website Management</a> | <a href="#SmallProject">Smaller Projects</a> | <a href="#GraphicDesign">Graphic Design</a> | <a href="#SEO">SEO</a></p>
+	<p className="centered"><a href="#WebDesign">Website Design</a> | <a href="#WebManagement">Website Management</a> | <a href="#SmallProject">Smaller Projects</a> | <a href="#GraphicDesign">Graphic Design</a> | <a href="#SEO">SEO</a></p>
 
 	<hr className="beyondMain"/>
 
