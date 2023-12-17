@@ -1,15 +1,13 @@
 import React from 'react';
-import logo from "../images/Sky-Marketing-Logo.svg";
+import Logo from "../images/Sky-Marketing-Logo-Footer.jpg";
 
 function Footer() {
   return (
     <footer>
-      <div>
-        {/* Centered logo */}
-        <img src={logo} className="footerLogo" alt="Sky Marketing Logo" />
+      <div className="footerLogoDiv">
+        <img src={Logo} className="footerLogo" alt="Sky Marketing Logo" />
       </div>
       <div className="footer-columns">
-        {/* Three columns */}
         <div className="footer-column">
           <h3>Column 1</h3>
           <ul>

@@ -209,13 +209,18 @@ li {
 footer {
   border-top: #000000 solid 15px;
   background-color: #FFFFFF;
+  padding: 0px;
+  margin: 0px;
+}
+
+.footerLogoDiv {
+  text-align: center;
 }
 
 .footerLogo {
   width: 200px;
   border-radius: 25px;
-  align-self: center;
-  text-align: center;
+  padding: 10px;
 }
 
 .footer-columns {
@@ -226,8 +231,7 @@ footer {
 
 .footer-column {
   flex: 1; /* Each column takes an equal amount of space */
-  margin: 10px; /* Add some spacing between columns */
-  padding: 20px; /* Add padding inside each column */
+  padding: 10px; /* Add padding inside each column */
   border: 1px solid #ccc; /* Add borders for separation (optional) */
   box-sizing: border-box; /* Include padding and border in the width */
 }
