@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer>
       <div className="footerLogoDiv">
-        <img src={Logo} className="footerLogo" alt="Sky Marketing Logo" />
+        <a href="/home"><img src={Logo} className="footerLogo" alt="Sky Marketing Logo" /></a>
       </div>
       <div className="footer-columns">
         <div className="footer-column">

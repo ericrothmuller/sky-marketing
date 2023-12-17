@@ -14,7 +14,7 @@ import Footer from './components/Footer';
 function App() {
 return (
 	<Router>
-		<div className="logoDiv"><img src={Logo} className="mainLogo" alt="Sky Marketing Logo" /></div>
+		<a href="/home"><div className="logoDiv"><img src={Logo} className="mainLogo" alt="Sky Marketing Logo" /></div></a>
 	<Navbar />
 	<BackToTopButton />
 	<Routes>
