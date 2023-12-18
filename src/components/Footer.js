@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from "../images/Sky-Marketing-Logo-Footer.jpg";
+import Logo from "../images/Sky-Marketing-Logo-Footer.png";
 
 function Footer() {
   return (

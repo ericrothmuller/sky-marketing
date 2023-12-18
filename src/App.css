@@ -3,7 +3,7 @@
   font-size: 18px;
   letter-spacing: 0;
   font-weight: 400;
-  background-color: #ffffff;
+  background-color: #F7F7F7;
   margin: 0px;
   padding: 0px;
 }
@@ -11,7 +11,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #ffffff;
+  background-color: #F7F7F7;
   color: #000000;
 }
 
@@ -208,7 +208,7 @@ li {
 
 footer {
   border-top: #000000 solid 15px;
-  background-color: #FFFFFF;
+  background-color: #F7F7F7;
   padding: 0px;
   margin: 0px;
 }
