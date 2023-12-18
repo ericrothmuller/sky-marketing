@@ -220,7 +220,7 @@ footer {
 .footerLogo {
   width: 200px;
   border-radius: 25px;
-  padding: 10px;
+  padding: 10px 0px 0px 0px;
 }
 
 .footer-columns {
@@ -231,9 +231,12 @@ footer {
 
 .footer-column {
   flex: 1; /* Each column takes an equal amount of space */
-  padding: 10px; /* Add padding inside each column */
-  border: 1px solid #ccc; /* Add borders for separation (optional) */
-  box-sizing: border-box; /* Include padding and border in the width */
+  padding: 0px 5px 5px 5px; /* Add padding inside each column */
+  text-align: center;
+}
+
+.footer-column p {
+  font-size: 18px;
 }
 
 /* Responsive adjustments */

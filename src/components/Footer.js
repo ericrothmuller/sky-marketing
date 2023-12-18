@@ -9,28 +9,16 @@ function Footer() {
       </div>
       <div className="footer-columns">
         <div className="footer-column">
-          <h3>Column 1</h3>
-          <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-          </ul>
+            <p>Phone: 707-843-2047</p>
+            <p>Kelseyville, CA & Louisville, KY</p>
         </div>
         <div className="footer-column">
-          <h3>Column 2</h3>
-          <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-          </ul>
+            <p>Privacy Policy | Terms & Conditions | Accessibility</p>
+            <p>© 2023 Sky Marketing. All rights reserved.</p>
         </div>
         <div className="footer-column">
-          <h3>Column 3</h3>
-          <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-          </ul>
+            <p>Hours of Operation:</p>
+            <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
         </div>
       </div>
     </footer>
