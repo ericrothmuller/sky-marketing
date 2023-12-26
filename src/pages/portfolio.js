@@ -99,6 +99,11 @@ return (
 	</div>
 	<p> <em className="subFont">*This is not all of the business websites we've done but this should give you a good sample of some of our work.
 	<br />*Styles and design preferences are up to the client. Our job is to make your vision come alive.</em></p>
+
+	<hr className="beyondMain"/>
+
+	<h2>Get In Touch</h2>
+	<p>Contact us today to get started by calling us at <a href="tel:1-707-843-2047">707-843-2047</a> or by emailing us at <a href="mailto:eric@skymarketingco.com">eric@skymarketingco.com</a></p>
 	</main>
 );
 };
