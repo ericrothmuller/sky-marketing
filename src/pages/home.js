@@ -29,8 +29,15 @@ return (
 
 	<p>Elevate. Engage. Excel. With Sky Marketing.</p>
 
-	<div className="centered"><a href="/services"><button className="normalButton">Our Services</button></a>
-	<p><a href="/contact/">Contact us</a> today at <a href="tel:707-843-2047">707-843-2047</a></p></div>
+	<div className="centered">
+		<a href="/services"><button className="normalButton">Our Services</button></a>
+	</div>
+
+	<hr className="beyondMain"/>
+
+	<h2>Get In Touch</h2>
+	<p>Contact us today to get started by calling us at <a href="tel:1-707-843-2047">707-843-2047</a> or by emailing us at <a href="mailto:eric@skymarketingco.com">eric@skymarketingco.com</a></p>
+
 	</main>
 );
 };
