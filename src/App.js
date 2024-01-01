@@ -8,6 +8,7 @@ import About from './pages/about';
 import Services from './pages/services';
 import Portfolio from './pages/portfolio';
 import Contact from './pages/contact';
+import Privacy from './pages/privacy';
 import Logo from './images/Sky-Marketing-Logo.png';
 import Footer from './components/Footer';
 
@@ -24,6 +25,7 @@ return (
 		<Route path='/contact' element={<Contact/>} />
 		<Route path='/services' element={<Services/>} />
 		<Route path='/portfolio' element={<Portfolio/>} />
+		<Route path='/privacy-policy' element={<Privacy/>} />
 	</Routes>
 	<Footer />
 	</Router>

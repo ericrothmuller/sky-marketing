@@ -13,7 +13,7 @@ function Footer() {
             <p>Kelseyville, CA & Louisville, KY</p>
         </div>
         <div className="footer-column">
-            <p>Privacy Policy | Terms & Conditions | Accessibility</p>
+            <p><a href="/privacy-policy/">Privacy Policy</a> | Terms & Conditions | Accessibility</p>
             <p>© 2023 Sky Marketing. All rights reserved.</p>
         </div>
         <div className="footer-column">
