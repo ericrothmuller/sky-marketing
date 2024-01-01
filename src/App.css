@@ -166,36 +166,6 @@ li {
   background-color: #00C0F7;
 }
 
-.skyMarketingBox {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(166, 196, 222);
-  border-radius: 10px;
-  width: 47%;
-  border: 2px black solid;
-  padding: 0px 10px 0px 10px;
-  float: left;
-}
-
-.skyMarketingBox:hover {
-  background-color: rgb(146, 196, 222);
-}
-
-.founderBox {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(176, 196, 222);
-  border-radius: 10px;
-  width: 47%;
-  border: 2px black solid;
-  padding: 0px 10px 0px 10px;
-  float: right;
-}
-
-.founderBox:hover {
-  background-color: rgb(156, 196, 222);
-}
-
 .alignSelfCenter {
   align-self: center;
 }
@@ -203,7 +173,10 @@ li {
 .aboutImage {
   width: 200px;
   border-radius: 25px;
-  align-self: center;
+}
+
+.imgDiv {
+  text-align: center;
 }
 
 footer {
