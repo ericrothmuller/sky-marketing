@@ -84,7 +84,7 @@ return (
 
 	<hr className="beyondMain"/>
 
-	<h2 id="BusinessWebsites">Business Websites</h2>
+	<h2 id="BusinessWebsites">Business Website Examples</h2>
 	<div className="portfolioDiv">
 		<img src={EliteMD} alt="elitemdspa.com Website Design" className="portfolioImage" />
 		<img src={FlyingGoatCoffee} alt="flyinggoatcoffee.com Website Design" className="portfolioImage" />
