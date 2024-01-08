@@ -20,7 +20,7 @@ return (
 
 	<hr className="beyondMain"/>
 
-	<h2 id="WorkedFor">Some of the companies we've done work for:</h2>
+	<h2>Some of the companies we've done work for:</h2>
 	<div className="row">
 		<div className="columnLeft">
 			<ul>
