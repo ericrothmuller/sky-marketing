@@ -190,6 +190,11 @@ li {
 
 .coloredDiv {
   background-image: linear-gradient(to bottom right, #d5e7ec, #d1eef6 , #c3d8d9);
+  margin-left: -25px;
+  margin-right: -25px;
+  padding: 5px 25px 5px 25px;
+  border-top: 1px gray solid;
+  border-bottom: 1px gray solid;
 }
 
 footer {
