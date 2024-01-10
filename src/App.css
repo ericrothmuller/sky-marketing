@@ -174,10 +174,22 @@ li {
   width: 200px;
   border-radius: 25px;
   border: 1px solid #00A0E4;
+  filter: drop-shadow(1px 1px 1px #050505);
+}
+
+.aboutImage:hover {
+  background-image: linear-gradient(to bottom right, #00A0E4, #00C0F7 , #00A0E4);
+  border: solid 1px #00C0F7;
+  opacity: 10;
+  
 }
 
 .imgDiv {
   text-align: center;
+}
+
+.coloredDiv {
+  background-image: linear-gradient(to bottom right, #d5e7ec, #d1eef6 , #c3d8d9);
 }
 
 footer {
@@ -185,6 +197,7 @@ footer {
   background-color: #F7F7F7;
   padding: 0px;
   margin: 0px;
+  background-image: linear-gradient(to bottom right, #d5e7ec, #d1eef6 , #c3d8d9);
 }
 
 .footerLogo {

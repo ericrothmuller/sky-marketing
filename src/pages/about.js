@@ -6,7 +6,7 @@ const About = () => {
 return (
 	<main>
 		<h1>About Us</h1>
-		<p className="centered bolded">Welcome to Sky Marketing – where innovation takes flight and digital dreams become reality.</p>
+		<p className="centered">Welcome to Sky Marketing - where innovation takes flight and digital dreams become reality.</p>
 
 		<hr className="beyondMain"/>
 
