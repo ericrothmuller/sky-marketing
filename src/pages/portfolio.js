@@ -10,6 +10,7 @@ import ImageAthletic from "../images/Portfolio Images/Image-Athletic-Screenshot.
 import MurderRidge from "../images/Portfolio Images/Murder-Ridge-Screenshot.jpg";
 import SonomaCrust from "../images/Portfolio Images/Sonoma-Crust-Screenshot.jpg";
 import FutureLifeToday from "../images/Portfolio Images/Future-Life-Today-Screenshot.jpg";
+import JHBaseballAcademy from "../images/Portfolio Images/JH-Baseball-Academy-Screenshot.jpg";
 
 
 const Portfolio = () => {
@@ -29,8 +30,8 @@ return (
 				<li>Firefly Athletics</li>
 				<li>Elite MD</li>
 				<li>Image Athletic</li>
-				<li>iHeart Media</li>
-				<li>Ad Taxi</li>
+				<li>JH Baseball Academy</li>
+				<li>Future Life Today</li>
 				<li>Bruk Hair Studio</li>
 				<li>Thrive & Lead</li>
 				<li>Cait Hudson Realty</li>
@@ -98,6 +99,7 @@ return (
 		<img src={ChaoSantana} alt="chaosantanafarm.com Website Design" className="portfolioImage" />
 		<img src={DeWitteConstruction} alt="dewitteco.com Website Design" className="portfolioImage" />
 		<img src={FutureLifeToday} alt="futurelifetoday.org Website Design" className="portfolioImage" />
+		<img src={JHBaseballAcademy} alt="jhbaseball.com Website Design" className="portfolioImage" />
 	</div>
 	<p> <em className="subFont">*This is not all of the business websites we've done but this should give you a good sample of some of our work.
 	<br />*Styles and design preferences are up to the client. Our job is to make your vision come alive.</em></p>
