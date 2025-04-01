@@ -8,6 +8,10 @@
   padding: 0px;
 }
 
+.rows {
+  background-color: red;
+}
+
 body {
   margin: 0px;
   padding: 0px;
