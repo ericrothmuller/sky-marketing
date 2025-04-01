@@ -142,6 +142,10 @@ li {
   filter: drop-shadow(5px 5px 5px #050505);
 }
 
+.portfolioImage:hover {
+  opacity: 0.9;
+}
+
 .contactImage {
   width: 70%;
   margin: 10px 10px 60px 10px;
@@ -149,6 +153,10 @@ li {
   border-radius: 10px;
   background-color: #f6f6f6;
   filter: drop-shadow(3px 3px 3px #050505);
+}
+
+.contactImage:hover {
+  opacity: 0.9;
 }
 
 /* BackToTopButton.css */
