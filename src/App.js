@@ -13,11 +13,12 @@ import Terms from './pages/terms';
 import Accessibility from './pages/accessibility';
 import Logo from './images/Sky-Marketing-Logo.png';
 import Footer from './components/Footer';
+import {Link} from "react-router-dom";
 
 function App() {
 return (
 	<Router>
-		<a href="/home"><div className="logoDiv"><img src={Logo} className="mainLogo" alt="Sky Marketing Logo" /></div></a>
+		<Link to="/home"><div className="logoDiv"><img src={Logo} className="mainLogo" alt="Sky Marketing Logo" /></div></Link>
 	<Navbar />
 	<BackToTopButton />
 	<Routes>
