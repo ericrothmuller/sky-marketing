@@ -14,7 +14,7 @@ function Footer() {
         </div>
         <div className="footer-column">
           <p className="bolded">Open: Monday - Friday: 8:00 AM - 5:00 PM PST</p>
-          <p>© 2023 Sky Marketing. All rights reserved.</p>
+          <p>© 2025 Sky Marketing. All rights reserved.</p>
         </div>
       </div>
     </footer>
