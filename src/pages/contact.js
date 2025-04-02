@@ -24,7 +24,7 @@ return (
 		<div className="columnRight">
 		<div class="centered">
 			<	p><strong>Phone:</strong> <a href="tel:707-843-2047">707-843-2047</a></p>
-				<p><strong>Email:</strong> <a href="mailto:info@skymarketingco.com">info@skymarketingco.com</a></p>
+				<p><strong>Email:</strong> <a href="mailto:eric@skymarketingco.com">eric@skymarketingco.com</a></p>
 				<img src={ContactUsImg} alt="Contact Us Image" className="contactImage"/>
 			</div>
 		</div>
