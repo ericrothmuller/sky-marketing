@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import ScrollToTop from './components/scrollToTop';
 import BackToTopButton from './components/BackToTopButton';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
@@ -18,6 +19,7 @@ import {Link} from "react-router-dom";
 function App() {
 return (
 	<Router>
+		<ScrollToTop />
 		<Link to="/home"><div className="logoDiv"><img src={Logo} className="mainLogo" alt="Sky Marketing Logo" /></div></Link>
 	<Navbar />
 	<BackToTopButton />
