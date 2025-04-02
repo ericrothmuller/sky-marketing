@@ -5,6 +5,8 @@ const Home = () => {
 return (
 	<main>
 	<h1>Welcome to Sky Marketing</h1>
+	<p className="centered">We look forward to bringing your vision to life.</p>
+	<hr className="beyondMain"/>
 	<h2>Elevate Your Online Presence and Fuel Your Business Growth</h2>
 	<p>At Sky Marketing, we are your trusted partner in the digital world, dedicated to helping businesses thrive in the online realm. Our comprehensive suite of services, including web design, web management, search engine optimization, and more, is meticulously crafted to empower your brand and drive sustainable success. With a team of experts passionate about delivering results, we're here to transform your online presence into a powerful asset that attracts, engages, and converts. Explore our services, and let's embark on a journey to unlock your business's full potential in the digital age.</p>
 
