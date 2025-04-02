@@ -3,8 +3,10 @@ import React from "react";
 const Accessibility = () => {
     return (
         <main>
-            <h1>Accessibility</h1>
-                <p>Effective Date: 04/01/2025</p>
+            <div className="coloredDiv">
+                <h1>Accessibility</h1>
+                <p className="centered">Effective Date: 04/01/2025</p>
+            </div>
 
                 <p>Sky Marketing is committed to ensuring digital accessibility for all users, including those with disabilities. We strive to improve the user experience for everyone by implementing best practices that align with accessibility standards.</p>
 

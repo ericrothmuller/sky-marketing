@@ -18,11 +18,10 @@ import ZedsOutdoorServices from "../images/Portfolio Images/Zeds-Outdoor-Service
 const Portfolio = () => {
 return (
 	<main>
-	<h1>Portfolio</h1>
-
-	<p className="centered"><a href="#WorkedFor">Whom We've Done Work For</a> | <a href="#BusinessWebsites">Business Websites</a></p>
-
-	<hr className="beyondMain"/>
+		<div className="coloredDiv">
+			<h1>Portfolio</h1>
+			<p className="centered"><a href="#WorkedFor">Whom We've Done Work For</a> | <a href="#BusinessWebsites">Business Websites</a></p>
+		</div>
 
 	<h2 id="WorkedFor">Some of the companies we've done work for:</h2>
 	<div className="businessesWorkedForDiv">

@@ -5,10 +5,10 @@ import AboutLogo from "../images/Sky-Marketing-Logo-About-Page.jpg";
 const About = () => {
 return (
 	<main>
-		<h1>About Us</h1>
-		<p className="centered">Welcome to Sky Marketing - where innovation takes flight and digital dreams become reality.</p>
-
-		<hr className="beyondMain"/>
+		<div className="coloredDiv">
+			<h1>About Us</h1>
+			<p className="centered">Welcome to Sky Marketing - where innovation takes flight and digital dreams become reality.</p>
+		</div>
 
 			<h2 className="centered bolded">About Sky Marketing</h2>
 			<div className="imgDiv"><img src={AboutLogo} alt="Sky Marketing" className="aboutImage" /></div>

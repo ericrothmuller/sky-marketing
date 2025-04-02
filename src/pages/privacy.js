@@ -3,8 +3,10 @@ import React from 'react';
 const Privacy = () => {
 return (
 	<main>
-        <h1>Privacy Policy</h1>
-        <p>Effective Date: 04/01/2025</p>
+                <div className="coloredDiv">
+                        <h1>Privacy Policy</h1>
+                        <p className="centered">Effective Date: 04/01/2025</p>
+                </div>
 
 <p>At Sky Marketing, we respect your privacy and are committed to protecting it through this Privacy Policy. This policy explains how we collect, use, and disclose your information when you use our website, skymarketingco.com ("Website"), and our web design and online marketing services ("Services"). By accessing or using our Website and Services, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
 

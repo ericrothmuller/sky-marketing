@@ -3,8 +3,10 @@ import React from 'react';
 const Terms = () => {
     return (
         <main>
-            <h1>Terms and Conditions</h1>
-            <p>Effective Date: 04/01/2025</p>
+            <div className="coloredDiv">
+                <h1>Terms and Conditions</h1>
+                <p className="centered">Effective Date: 04/01/2025</p>
+            </div>
 
 <p>These Terms and Conditions ("Terms") govern your use of our website, skymarketingco.com ("Website"), and the services we provide, including web design and online marketing ("Services"). By accessing or using our Website and Services, you agree to comply with and be bound by these Terms. If you do not agree, please do not use our Website or Services.</p>
 

@@ -4,10 +4,11 @@ import ContactUsImg from "..//images/Contact-Us-Bottom.png";
 const Contact = () => {
 return (
 	<main>
-	<div className="row">
+		<div className="coloredDiv">
 		<h1>Get In Touch</h1>
 		<p className="centered">We look forward to speaking with you!</p>
-		<hr className="beyondMain"/>
+		</div>
+	<div className="row">
 		<div className="columnLeft">
 		<div class="centered">
 				<p><strong>Hours of Operation:</strong></p>
