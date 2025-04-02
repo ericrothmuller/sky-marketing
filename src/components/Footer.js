@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <div className="footer-columns">
         <div className="footer-column">
-          <p className="bolded">Phone: 707-843-2047</p>
+          <p className="bolded">Phone: <a href="tel:17078432047">707-843-2047</a></p>
           <p><a href="/privacy-policy/">Privacy Policy</a> | <a href="/terms-and-conditions/">Terms & Conditions</a> | <a href="/accessability">Accessibility</a></p>
         </div>
         <div className="footer-column">
