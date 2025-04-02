@@ -1,5 +1,7 @@
 import React from 'react';
 import '.././App.css';
+import {Link} from "react-router-dom";
+
 
 const Home = () => {
 return (
@@ -32,7 +34,7 @@ return (
 	<p>Elevate. Engage. Excel. With Sky Marketing.</p>
 
 	<div className="centered">
-		<a href="/services"><button className="normalButton">Our Services</button></a>
+		<Link to="/services"><button className="normalButton">Our Services</button></Link>
 	</div>
 
 	<hr className="beyondMain"/>
