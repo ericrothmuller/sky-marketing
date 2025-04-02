@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from "../images/Sky-Marketing-Logo-Footer.png";
+import {Link} from "react-router-dom";
 
 function Footer() {
   return (
@@ -10,7 +11,7 @@ function Footer() {
           <p><a href="/privacy-policy/">Privacy Policy</a> | <a href="/terms-and-conditions/">Terms & Conditions</a> | <a href="/accessability">Accessibility</a></p>
         </div>
         <div className="footer-column">
-        <a href="/home"><img src={Logo} className="footerLogo" alt="Sky Marketing Logo" /></a>
+        <Link to="/home"><img src={Logo} className="footerLogo" alt="Sky Marketing Logo" /></Link>
         </div>
         <div className="footer-column">
           <p className="bolded">Open: Monday - Friday: 8:00 AM - 5:00 PM PST</p>
