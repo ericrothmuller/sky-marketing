@@ -20,7 +20,7 @@ const Navbar = () => {
             Portfolio
           </NavLink>
           <NavLink to="/contact">
-            Contact Us
+            Contact
           </NavLink>
         </NavMenu>
       </Nav>
