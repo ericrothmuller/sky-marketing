@@ -42,7 +42,7 @@ return (
 	<h2>Get Started Today</h2>
 	<p>Ready to take your online presence to the next level? Contact us to schedule a consultation and discover how Sky Marketing can help your business thrive in the digital era. We're excited to be your partner on this journey to success.</p>
 	<p>Elevate. Engage. Excel. With Sky Marketing.</p>
-	<p>Contact us today to get started by calling <a href="tel:1-707-843-2047">707-843-2047</a> or by emailing Eric at <a href="mailto:eric@skymarketingco.com">eric@skymarketingco.com</a></p>
+	<p>Contact us today to get started by calling us at <a href="tel:1-707-843-2047">707-843-2047</a> or by emailing us at <a href="mailto:info@skymarketingco.com">info@skymarketingco.com</a></p>
 	</main>
 );
 };
