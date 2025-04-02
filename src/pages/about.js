@@ -19,9 +19,10 @@ return (
 		<div className="coloredDiv">
 			<h2 className="centered bolded">Meet Our Founder</h2>
 			<div className="imgDiv"><img src={Eric} alt="Eric Rothmuller" className="aboutImage" /></div>
-			<p>Hello. My name is Eric Rothmuller and I have been doing web design and online marketing since 2010. I went to the Santa Rosa JC for Marketing and U.C. Berkeley for Full-Stack Programming.</p>
-			<p>My web design and coding expertise is in HTML, CSS, JavaScript, React, WordPress, UI/UX Design, Responsive Web Design, Web Hosting, Node.js, Express.js, SQL, MongoDB, and more.</p>
-			<p>My marketing expertise is primarily in online marketing techniques such as Search Engine Optimization, Social Media Marketing, Digital Ads, eCommerce Management, Graphic Design, E-Mail Marketing, and more.</p>
+			<p>Hi! My name is Eric Rothmuller and I have been professionally providing web design and online marketing services since 2010. I went to the Santa Rosa JC for Marketing and U.C. Berkeley for Full Stack Programming. I started Sky Marketing in 2012.</p>
+			<p>As a web developer, I am an expert in HTML, CSS, JavaScript, PHP, WordPress, React, UI/UX Design, Responsive Web Design, Web Hosting, Web Management, Node.js, Express.js, SQL, MongoDB, and more.</p>
+			<p>For online marketing, I am an expert in Search Engine Optimization (SEO), Content Writing, eCommerce Management, Graphic Design, Social Media Marketing, Digital Advertising, E-Mail Marketing, and more.</p>
+			<p>My goal for Sky Marketing is to provide our clients with the absolute best service possible. I will never advise or try to sell our clients on things they don't need or want and I will always strive to provide exceptional work on every project.</p>
 			</div>
 
 		<h2>Get In Touch</h2>
