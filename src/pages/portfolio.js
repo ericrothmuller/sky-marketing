@@ -24,7 +24,7 @@ return (
 
 	<hr className="beyondMain"/>
 
-	<h2 id="WorkedFor"><span className="underlineText">Some</span> of the companies we've done work for:</h2>
+	<h2 id="WorkedFor">Some of the companies we've done work for:</h2>
 	<div className="businessesWorkedForDiv">
 		<div className="row">
 			<div className="columnLeft">
