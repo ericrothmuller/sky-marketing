@@ -1,16 +1,18 @@
 import React from 'react';
 import AppliedSigns from "../images/Portfolio Images/Applied-Signs-Screenshot.jpg";
+import CandorpPartners from "../images/Portfolio Images/Candorp-Partners-Screenshot.jpg";
 import ChaoSantana from "../images/Portfolio Images/Chao-Santana-Farm-Screenshot.jpg";
 import DeWitteConstruction from "../images/Portfolio Images/DeWitte-Construction-Screenshot.jpg";
 import EliteMD from "../images/Portfolio Images/Elite-MD-Screenshot.jpg";
 import FlakeyCream from "../images/Portfolio Images/Flakey-Cream-Screenshot.jpg";
-import FlyingGoatCoffee from "../images/Portfolio Images/Flying-Goat-Screenshot.jpg";
+import FlyingGoatCoffee from "../images/Portfolio Images/Flying-Goat-Coffee-Screenshot.jpg";
 import FourSeasons from "../images/Portfolio Images/Four-Seasons-Vineyard-Management-Screenshot.jpg";
 import ImageAthletic from "../images/Portfolio Images/Image-Athletic-Screenshot.jpg";
 import MurderRidge from "../images/Portfolio Images/Murder-Ridge-Screenshot.jpg";
 import SonomaCrust from "../images/Portfolio Images/Sonoma-Crust-Screenshot.jpg";
 import FutureLifeToday from "../images/Portfolio Images/Future-Life-Today-Screenshot.jpg";
 import JHBaseballAcademy from "../images/Portfolio Images/JH-Baseball-Academy-Screenshot.jpg";
+import ZedsOutdoorServices from "../images/Portfolio Images/Zeds-Outdoor-Services-Screenshot.jpg";
 
 
 const Portfolio = () => {
@@ -50,6 +52,8 @@ return (
 				<li>Trashy Behavior</li>
 				<li>First Class Limo Service</li>
 				<li>Executive Charters</li>
+				<li>o2 Resort and Cabanas</li>
+				<li>Elk's Lodge - Oceano</li>
 			</ul>
 		</div>
 		<div className="columnRight">
@@ -77,7 +81,9 @@ return (
 				<li>North Bay Auto</li>
 				<li>K9 Activity Club</li>
 				<li>Applied Signs</li>
-				<li>DeWitte Construction</li>	
+				<li>DeWitte Construction</li>
+				<li>Zed's Outdoor Services</li>
+				<li>The Folde Laundry Service</li>
 			</ul>
 		</div>
 		<p> <em className="subFont">*This is not all of the companies we've done work for but this list of clients should give you an idea of the type of companies we've done work.
@@ -100,6 +106,8 @@ return (
 		<img src={DeWitteConstruction} alt="dewitteco.com Website Design" className="portfolioImage" />
 		<img src={FutureLifeToday} alt="futurelifetoday.org Website Design" className="portfolioImage" />
 		<img src={JHBaseballAcademy} alt="jhbaseball.com Website Design" className="portfolioImage" />
+		<img src={CandorpPartners} alt="candorp.com Website Design" className="portfolioImage" />
+		<img src={ZedsOutdoorServices} alt="zedsoutdoorservices.com Website Design" className="portfolioImage" />
 	</div>
 	<p> <em className="subFont">*This is not all of the business websites we've done but this should give you a good sample of some of our work.
 	<br />*Styles and design preferences are up to the client. Our job is to make your vision come alive.</em></p>
