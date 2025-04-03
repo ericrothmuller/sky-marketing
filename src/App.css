@@ -202,6 +202,19 @@ li {
   transition: all 0.3s linear;
 }
 
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .hamburger {
+    display: fixed;
+    padding-top: 10px;
+    margin-left: 10px;
+    z-index: 10;
+  }
+}
+
 /* BackToTopButton CSS */
 .back-to-top-button {
   display: none;
