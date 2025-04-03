@@ -1,3 +1,5 @@
+import Hamburger from "./Hamburger"
+
 export default function Nav(){
     return (
         <div>
@@ -7,6 +9,9 @@ export default function Nav(){
                 <li>Services</li>
                 <li>Portfolio</li>
                 <li>Contact</li>
+                <div className="hamburger">
+                    <Hamburger />
+                </div>
             </div>
         </div>
     )
