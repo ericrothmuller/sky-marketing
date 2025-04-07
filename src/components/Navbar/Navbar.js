@@ -2,12 +2,20 @@ import React from "react";
 import { Nav, NavLink, NavMenu }
     from "./NavbarElements";
 import { Link } from "react-router-dom";
+import '../.././App.css';
   
 const Navbar = () => {
   return (
     <>
       <Nav>
         <NavMenu>
+          <div className="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <NavLink to="/">
             Home
           </NavLink>
