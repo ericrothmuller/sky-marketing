@@ -20,7 +20,6 @@ function App() {
 return (
 	<Router>
 		<ScrollToTop />
-		<Link to="/home"><div className="logoDiv"><img src={Logo} className="mainLogo" alt="Sky Marketing Logo" /></div></Link>
 	<Navbar />
 	<BackToTopButton />
 	<Routes>
