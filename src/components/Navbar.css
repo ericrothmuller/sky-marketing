@@ -41,7 +41,7 @@ nav ul li a:not(.active):hover {
 }
 
 nav .menu {
-    display: flex;
+    display: none;
     position: absolute;
     top: 0.75rem;
     right: 0.5rem;
@@ -56,4 +56,10 @@ nav .menu span {
     width: 100%;
     background-color: #ffffff;
     border-radius: 0.2rem;
+}
+
+@media (max-width: 480px) {
+    nav .menu {
+        display: flex;
+    }
 }
