@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import ScrollToTop from './components/scrollToTop';
 import BackToTopButton from './components/BackToTopButton';
-import Navbar from './components/Navbar/Navbar';
+import { Navbar } from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/home';
 import About from './pages/about';
@@ -14,7 +14,7 @@ import Terms from './pages/terms';
 import Accessibility from './pages/accessibility';
 import Logo from './images/Sky-Marketing-Logo.png';
 import Footer from './components/Footer';
-import {Link} from "react-router-dom";
+import {Link} from "react-router-dom"
 
 function App() {
 return (

@@ -8,6 +8,17 @@
   padding: 0px;
 }
 
+* {
+  box-sizing: border-box;
+  font-family: 'Hedvig Letters Sans', sans-serif;
+}
+
+.App {
+  background-color: #fefefe;
+  height: 100%;
+  width: 100%;
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -62,22 +73,22 @@ p {
   font-weight: bold;
 }
 
-a {
+/* a {
   color: #000000;
   text-decoration: none;
-}
+} */
 
-a:hover {
+/* a:hover {
   color: #000000;
   text-decoration: underline;
   text-underline-offset: 0.3rem;
   text-decoration-thickness: 0.2rem;
   text-decoration-color: #00C0F7;
-}
+} */
 
-a:visited {
+/* a:visited {
    color: #000000;
-}
+} */
 
 button.normalButton {
   background-image: linear-gradient(to bottom right, #00A0E4, #00C0F7 , #00A0E4);
@@ -124,9 +135,9 @@ button.normalButton:hover {
   width: 50%;
 }
 
-li {
+/* li {
   font-size: 22px;
-}
+} */
 
 .businessesWorkedForDiv {
   margin-left: 9%;
@@ -161,14 +172,6 @@ li {
 
 .contactImage:hover {
   opacity: 0.9;
-}
-
-/* Navigation CSS */
-
-.App {
-  background-color: #fefefe;
-  height: 100%;
-  width: 100%;
 }
 
 /* BackToTopButton CSS */
