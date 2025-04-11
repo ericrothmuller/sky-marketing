@@ -3,22 +3,21 @@ import { Nav, NavLink, NavMenu }
     from "./NavbarElements";
 import { Link } from "react-router-dom";
 import '../.././App.css';
+import '.Navbar.css';
   
 const Navbar = () => {
   return (
     <>
       <Nav>
         <NavMenu>
+          <NavLink to="/">
+            Home
+          </NavLink>
           <div className="menu">
             <span></span>
             <span></span>
             <span></span>
-            <span></span>
-            <span></span>
           </div>
-          <NavLink to="/">
-            Home
-          </NavLink>
           <NavLink to="/about">
             About
           </NavLink>
